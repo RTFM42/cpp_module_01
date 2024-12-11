@@ -12,7 +12,7 @@ HumanA::~HumanA(void)
 
 void HumanA::attack(void)
 {
-	std::cout << this->__name__ << " attacks with " << this->__weapon__.getType() << std::endl;
+	std::cout << this->__name__ << " attacks with their " << this->__weapon__.getType() << std::endl;
 }
 
 void HumanA::setWeapon(Weapon weapon)
