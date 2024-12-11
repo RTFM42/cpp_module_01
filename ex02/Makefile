@@ -1,10 +1,8 @@
-NAME	= Zombie
+NAME	= Brain
 CC		= c++
 CFLAGS	= -Wall -Wextra -Werror -std=c++98
 SRCS	= \
-	main.cpp \
-	Zombie.cpp \
-	zombieHorde.cpp
+	main.cpp
 OBJS	= $(SRCS:.cpp=.o)
 INCLUDE	= -I./
 
